@@ -274,3 +274,8 @@ Private Sub CommandButton1_Click()
         
   
 End Sub
+
+                        
+Sub Button5_Click()
+    Rows("6:" & Rows.Count).Delete
+End Sub
